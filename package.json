@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "postcss --use postcss-import --use postcss-minify --no-map -o style.css src/index.css"
+    "build:style": "postcss --use postcss-import --use postcss-minify --no-map -o style.css src/index.css",
+    "build:docker": "docker build -t css ."
   },
   "author": "mdos-san",
   "license": "ISC",
