@@ -1,0 +1,17 @@
+{
+  "name": "@mdos-san/css",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss --use postcss-import --use postcss-minify --no-map -o style.css src/index.css"
+  },
+  "author": "mdos-san",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "postcss": "^8.4.47",
+    "postcss-cli": "^11.0.0",
+    "postcss-import": "^16.1.0",
+    "postcss-minify": "^1.1.0"
+  }
+}
