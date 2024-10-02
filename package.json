@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "build:watch": "npm run build:style -- --watch",
     "build:style": "postcss --use postcss-import --use postcss-minify --no-map -o style.css src/index.css",
     "build:docker": "docker build -t css ."
   },

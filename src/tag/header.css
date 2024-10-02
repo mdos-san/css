@@ -1,0 +1,13 @@
+header {
+  width: calc(100% - 8px * 2);
+  height: 64px;
+  padding: 0px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--header--background-color);
+  color: white;
+  border-radius: 123px;
+  max-width: 1200px;
+  box-shadow: 0px 3px 24px var(--active-color);
+}

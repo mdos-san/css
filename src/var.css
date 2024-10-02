@@ -1,0 +1,7 @@
+:root {
+  --hue: 240;
+  --active-color: hsla(var(--hue), 80%, 50%, 1);
+  --button--background-color: var(--active-color);
+  --header--background-color: hsla(var(--hue), 60%, 10%, 1);
+  --html--background-color: hsla(var(--hue), 100%, 97%, 1);
+}

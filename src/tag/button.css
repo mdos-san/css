@@ -1,3 +1,8 @@
 button {
-  padding: 8px 16px;
+  background-color: var(--button--background-color);
+  color: white;
+  border: none;
+  border-radius: 1234px;
+  height: 42px;
+  padding: 0px 24px;
 }

@@ -1,0 +1,18 @@
+header nav a {
+  color: white;
+  background-color: var(--header--background-color);
+  border: none;
+  border-radius: 1234px;
+  height: 42px;
+  padding: 0px 24px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+}
+
+header nav a.active {
+  background-color: white;
+  color: var(--header--background-color);
+}
